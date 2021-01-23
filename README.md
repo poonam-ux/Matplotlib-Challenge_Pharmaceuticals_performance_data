@@ -1,4 +1,4 @@
-# Pymaceuticals' drug treatements results
+# Pymaceuticals' Drug Treatments Results
 
 ## Background
 As a senior data analyst at the company Pymaceuticals, you’ve been asked to generate all of the tables and figures needed for the technical report of the study. The executive team also has asked for a top-level summary of the study results. You are given an access to the complete data from their most recent animal study where 249 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose was to compare the performance of Pymaceuticals’ drug of interest, Capomulin, versus the other treatment regimens.
