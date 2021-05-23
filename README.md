@@ -54,14 +54,14 @@ merged_data
 number_of_mice = len(merged_data["Mouse ID"].unique())
 print(f"Number of mice in the study: {number_of_mice}")
 ```
-Number of mice in the study: 249
+* Number of mice in the study: 249
 
 ```python
 # Getting the duplicate mice by ID number that shows up for Mouse ID and Timepoint. 
 duplicate_miceID = merged_data.loc[merged_data.duplicated(subset=["Mouse ID", "Timepoint",]),"Mouse ID"].unique()
 print(f"Duplicate Mice ID: {duplicate_miceID}")
 ```
-Duplicate Mice ID: 'g989'
+* Duplicate Mice ID: 'g989'
 
 ```python
 # Optional: Get all the data for the duplicate mouse ID.
@@ -82,7 +82,7 @@ combined_data
 mice_count = len(combined_data["Mouse ID"].unique())
 print(f"Number of mice in clean dataframe: {mice_count}")
 ```
-Number of mice in clean dataframe: 249
+* Number of mice in clean dataframe: 249
 
 ## Summary Statistics
 ```python
@@ -248,7 +248,7 @@ for drug in treatments:
     outliers = tumor_vol.loc[(tumor_vol < lower_bound) | (tumor_vol > upper_bound)]
     print(f"For {drug}, the outliers are: {outliers}")
 ```
-For Infubinol, the outliers are: 31    36.321346
+* For Infubinol, the outliers are: 31    36.321346
 ```python
 # Generate a box plot of the final tumor volume of each mouse across four regimens of interest
 fig1, ax1 = plt.subplots(figsize=(12,8))
