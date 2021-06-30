@@ -3,17 +3,6 @@
 ## Background
 As a senior data analyst at the company Pymaceuticals, you’ve been asked to generate all of the tables and figures needed for the technical report of the study. The executive team also has asked for a top-level summary of the study results. You are given an access to the complete data from their most recent animal study where 249 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose was to compare the performance of Pymaceuticals’ drug of interest, Capomulin, versus the other treatment regimens.
 
-## Objectives
-* Clean the dataset.
-* Generate summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
-* Generate a bar plot using both, Pandas’s DataFrame.plot() and Matplotlib’s pyplot.
-* Generate a pie plot using both Pandas’s DataFrame.plot() and Matplotlib’s pyplot.
-* Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculate the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
-* Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
-* Select a mouse that was treated with Capomulin and generate a line plot of tumor volume vs. time point for that mouse.
-* Generate a scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen.
-* Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model.
-
 ## Observations and Insights
 * The bar graph shows that the drug regimen Capomulin was tested on the maximum number of mice (230), followed by Ramicane (228).
 * The male and female mice population was very close- 125 male, and 124 female mice in the study. This shows a balanced gender population.
